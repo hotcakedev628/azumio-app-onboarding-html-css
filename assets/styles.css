@@ -1,0 +1,94 @@
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .btn-group {
+    margin: 12px 0 !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .btn {
+    width: 47%;
+  }
+}
+
+h1 {
+  padding-top: 20px 0;
+}
+
+.description {
+  padding: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.btn-group {
+  margin: 12px 0;
+}
+
+.btn {
+  border: 1px solid #c3c3c3;
+  background: #fff;
+  border-radius: 5px;
+  height: 57px;
+  width: 48%;
+}
+
+.btn p {
+  color: #8b949d;
+  font-weight: 600;
+}
+
+.btn.selected {
+  background: #424ea6;
+  box-shadow: 0.3em 0.3em 1em #d3d6ea;
+}
+
+.btn.selected p {
+  font-size: 16px;
+  color: #fff;
+}
